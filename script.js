@@ -13,7 +13,7 @@ isTyping = false
 let timer, maxTime = 15, timeLeft = maxTime
 
 function generateRandomSentencesHelper(numberOfSentences) {
-    let url = 'http://metaphorpsum.com/sentences/' + numberOfSentences
+    let url = 'https://metaphorpsum.com/sentences/' + numberOfSentences
 
     // Making our request
     return fetch(url, {
